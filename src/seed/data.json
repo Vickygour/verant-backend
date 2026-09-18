@@ -1,0 +1,2734 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Verdant Court Low 07",
+      "cat": "Sneakers",
+      "price": 14990,
+      "mrp": 18990,
+      "rating": 4.9,
+      "reviews": 842,
+      "badge": "BESTSELLER",
+      "isNewArrival": false,
+      "isBest": true,
+      "sizes": [
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10",
+        "UK 11"
+      ],
+      "colors": [
+        {
+          "n": "Deep Emerald",
+          "h": "#0B3D2E"
+        },
+        {
+          "n": "Ivory",
+          "h": "#EDE8DC"
+        }
+      ],
+      "material": "Italian Leather",
+      "fit": "True to size · Low profile",
+      "stock": 14,
+      "tagline": "The icon. Re-cut in full-grain emerald.",
+      "desc": "Our signature court silhouette cut from full-grain Italian leather with hand-painted emerald edges, tonal stitching and a cushioned ivory cupsole. Burnished by hand for a deep, living shine.",
+      "care": "Wipe with soft cloth. Condition leather monthly. Keep away from direct rain.",
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Alpi Knit Runner",
+      "cat": "Sneakers",
+      "price": 16500,
+      "mrp": 19990,
+      "rating": 4.8,
+      "reviews": 214,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10",
+        "UK 11"
+      ],
+      "colors": [
+        {
+          "n": "Off-White",
+          "h": "#F2F0E9"
+        },
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        }
+      ],
+      "material": "Technical Knit",
+      "fit": "Snug · Size up for wide feet",
+      "stock": 22,
+      "tagline": "Featherlight knit engineered for the city.",
+      "desc": "A sock-fit runner in recycled technical yarn with forest-green cage overlays and responsive foam. Weighs 240g. Breathes through Mumbai summers.",
+      "care": "Machine wash cold in bag. Air dry only.",
+      "images": [
+        "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1608231387042-66d1773070a5?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sarto Pista High",
+      "cat": "Sneakers",
+      "price": 18490,
+      "mrp": 22990,
+      "rating": 4.9,
+      "reviews": 167,
+      "badge": "LIMITED",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "UK 8",
+        "UK 9",
+        "UK 10",
+        "UK 11"
+      ],
+      "colors": [
+        {
+          "n": "Sage Suede",
+          "h": "#A8C0A6"
+        },
+        {
+          "n": "White",
+          "h": "#FFFFFF"
+        }
+      ],
+      "material": "Suede + Leather",
+      "fit": "True to size",
+      "stock": 8,
+      "tagline": "High-top nostalgia, maison precision.",
+      "desc": "Limited 500-pair run. Sage Italian suede with ivory leather eyestay, padded collar and archival Vérant piste stripe. Numbered tongue label.",
+      "care": "Use suede brush. Waterproof spray before wear.",
+      "images": [
+        "https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bosco Trail GTX",
+      "cat": "Sneakers",
+      "price": 19990,
+      "mrp": 24990,
+      "rating": 4.7,
+      "reviews": 329,
+      "badge": "BESTSELLER",
+      "isNewArrival": false,
+      "isBest": true,
+      "sizes": [
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10",
+        "UK 11"
+      ],
+      "colors": [
+        {
+          "n": "Olive",
+          "h": "#4A5D3A"
+        },
+        {
+          "n": "Black",
+          "h": "#111111"
+        }
+      ],
+      "material": "Nubuck + GTX Mesh",
+      "fit": "True to size",
+      "stock": 18,
+      "tagline": "Monsoon-proof. Mountain-ready.",
+      "desc": "Waterproof trail hybrid with Vibram-inspired lugged sole, nubuck mudguard and reflective forest hits. From Sahyadris to street.",
+      "care": "Rinse mud. Air dry. Re-proof seasonally.",
+      "images": [
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1552346154-21d32810aba3?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Verdant Court Mid",
+      "cat": "Sneakers",
+      "price": 15990,
+      "mrp": 19990,
+      "rating": 4.8,
+      "reviews": 276,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10",
+        "UK 11"
+      ],
+      "colors": [
+        {
+          "n": "Ivory",
+          "h": "#EDE8DC"
+        },
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        }
+      ],
+      "material": "Italian Leather",
+      "fit": "True to size · Mid-top",
+      "stock": 16,
+      "tagline": "Mid-cut take on the icon.",
+      "desc": "The Court 07 raised to mid-height with padded ankle collar, emerald heel tab and gum outsole. Everyday rotation hero.",
+      "care": "Wipe with soft cloth. Condition monthly.",
+      "images": [
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Alpi Slip-On",
+      "cat": "Sneakers",
+      "price": 11990,
+      "mrp": 14990,
+      "rating": 4.6,
+      "reviews": 142,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10"
+      ],
+      "colors": [
+        {
+          "n": "Stone",
+          "h": "#CFC6B4"
+        },
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "Canvas + Leather",
+      "fit": "Relaxed",
+      "stock": 24,
+      "tagline": "Slip in. Walk out.",
+      "desc": "Laceless slip-on in heavyweight canvas with leather heel counter and elastic gore. Effortless summer staple.",
+      "care": "Spot clean. Air dry.",
+      "images": [
+        "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1608231387042-66d1773070a5?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Bosco Low Suede",
+      "cat": "Sneakers",
+      "price": 13990,
+      "mrp": 16990,
+      "rating": 4.7,
+      "reviews": 188,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "UK 8",
+        "UK 9",
+        "UK 10",
+        "UK 11"
+      ],
+      "colors": [
+        {
+          "n": "Sage",
+          "h": "#A8C0A6"
+        },
+        {
+          "n": "Brown",
+          "h": "#8B5E3C"
+        }
+      ],
+      "material": "Italian Suede",
+      "fit": "True to size",
+      "stock": 19,
+      "tagline": "Buttery suede. Quiet luxury.",
+      "desc": "Low-profile silhouette in brushed Italian suede with tonal leather trim and natural crepe sole. Understated and endlessly wearable.",
+      "care": "Brush suede. Protect with spray.",
+      "images": [
+        "https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Verdant Court High",
+      "cat": "Sneakers",
+      "price": 17490,
+      "mrp": 21990,
+      "rating": 4.9,
+      "reviews": 203,
+      "badge": "LIMITED",
+      "isNewArrival": false,
+      "isBest": true,
+      "sizes": [
+        "UK 7",
+        "UK 8",
+        "UK 9",
+        "UK 10",
+        "UK 11"
+      ],
+      "colors": [
+        {
+          "n": "Deep Emerald",
+          "h": "#0B3D2E"
+        },
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "Full-grain Leather",
+      "fit": "True to size · High-top",
+      "stock": 7,
+      "tagline": "The icon, elevated.",
+      "desc": "Full high-top version of our bestseller with padded collar, archival piste stripe and hand-burnished emerald panels. Numbered run.",
+      "care": "Condition leather. Store with shoe trees.",
+      "images": [
+        "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Smeraldo Runner",
+      "cat": "Sneakers",
+      "price": 17990,
+      "mrp": 21990,
+      "rating": 4.8,
+      "reviews": 154,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "UK 8",
+        "UK 9",
+        "UK 10",
+        "UK 11"
+      ],
+      "colors": [
+        {
+          "n": "Emerald",
+          "h": "#0B3D2E"
+        },
+        {
+          "n": "Off-White",
+          "h": "#F2F0E9"
+        }
+      ],
+      "material": "Recycled Mesh",
+      "fit": "Snug",
+      "stock": 21,
+      "tagline": "Race-day foam. Street-ready.",
+      "desc": "Lightweight runner with supercritical foam midsole, recycled mesh upper and emerald accents. Designed for 5am and 5pm.",
+      "care": "Hand wash. Air dry.",
+      "images": [
+        "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1608231387042-66d1773070a5?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Essence Heavy Tee · Ivory",
+      "cat": "T-Shirts",
+      "price": 3490,
+      "mrp": 4290,
+      "rating": 4.9,
+      "reviews": 1204,
+      "badge": "ICON",
+      "isNewArrival": false,
+      "isBest": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Ivory",
+          "h": "#F2F0E9"
+        },
+        {
+          "n": "White",
+          "h": "#FFFFFF"
+        }
+      ],
+      "material": "240 GSM Organic Cotton",
+      "fit": "Boxy · Drop shoulder",
+      "stock": 45,
+      "tagline": "The perfect heavy tee. 240 GSM.",
+      "desc": "Cut boxy from dense 240 GSM organic cotton with ribbed collar that never sags. Garment-washed for zero shrinkage. The tee that built the house.",
+      "care": "Cold wash inside-out. Line dry in shade.",
+      "images": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Atelier Boxy Tee · Forest",
+      "cat": "T-Shirts",
+      "price": 3990,
+      "mrp": 4990,
+      "rating": 4.8,
+      "reviews": 386,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        },
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "Supima Cotton",
+      "fit": "Oversized boxy",
+      "stock": 30,
+      "tagline": "Deep forest. Small embroidered V.",
+      "desc": "Supima cotton jersey dyed deep forest with tonal embroidered Vérant monogram at chest and extended back hem. Pre-shrunk, bio-washed.",
+      "care": "Wash with like colours. Warm iron.",
+      "images": [
+        "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1503341504253-dff4815485f1?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Linea Piqué Tee · Sage",
+      "cat": "T-Shirts",
+      "price": 4490,
+      "mrp": 5490,
+      "rating": 4.7,
+      "reviews": 198,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Sage",
+          "h": "#A8C0A6"
+        },
+        {
+          "n": "Sand",
+          "h": "#D8CBB5"
+        }
+      ],
+      "material": "Cotton Piqué",
+      "fit": "Regular",
+      "stock": 26,
+      "tagline": "Piqué polish, tee ease.",
+      "desc": "Textured piqué knit with hidden placket and mother-of-pearl buttons. Smart enough for dinner, soft enough for Sunday.",
+      "care": "Gentle wash. Do not bleach.",
+      "images": [
+        "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Essence Heavy Tee · Forest",
+      "cat": "T-Shirts",
+      "price": 3490,
+      "mrp": 4290,
+      "rating": 4.9,
+      "reviews": 678,
+      "badge": "BESTSELLER",
+      "isNewArrival": false,
+      "isBest": true,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        },
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "240 GSM Organic Cotton",
+      "fit": "Boxy · Drop shoulder",
+      "stock": 40,
+      "tagline": "The 240 GSM icon, in forest.",
+      "desc": "Same dense 240 GSM organic cotton as our Ivory icon, garment-dyed deep forest. Ribbed collar, boxy cut, zero shrink.",
+      "care": "Cold wash. Line dry.",
+      "images": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Essence Heavy Tee · Black",
+      "cat": "T-Shirts",
+      "price": 3490,
+      "mrp": 4290,
+      "rating": 4.8,
+      "reviews": 541,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "240 GSM Organic Cotton",
+      "fit": "Boxy · Drop shoulder",
+      "stock": 38,
+      "tagline": "The icon, in true black.",
+      "desc": "Reactive-dyed true black that resists fading. 240 GSM organic cotton, boxy fit, drop shoulder.",
+      "care": "Cold wash inside-out.",
+      "images": [
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Atelier Boxy Tee · Ivory",
+      "cat": "T-Shirts",
+      "price": 3990,
+      "mrp": 4990,
+      "rating": 4.8,
+      "reviews": 312,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Ivory",
+          "h": "#F2F0E9"
+        }
+      ],
+      "material": "Supima Cotton",
+      "fit": "Oversized boxy",
+      "stock": 28,
+      "tagline": "Supima softness. Ivory calm.",
+      "desc": "Supima cotton jersey in clean ivory with tonal embroidered monogram and extended back hem. Pre-shrunk.",
+      "care": "Wash with like colours.",
+      "images": [
+        "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1503341504253-dff4815485f1?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Linea Piqué Tee · Sand",
+      "cat": "T-Shirts",
+      "price": 4490,
+      "mrp": 5490,
+      "rating": 4.7,
+      "reviews": 176,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Sand",
+          "h": "#D8CBB5"
+        }
+      ],
+      "material": "Cotton Piqué",
+      "fit": "Regular",
+      "stock": 24,
+      "tagline": "Warm sand piqué.",
+      "desc": "Textured piqué knit in warm sand with hidden placket and mother-of-pearl buttons. Quiet polish.",
+      "care": "Gentle wash.",
+      "images": [
+        "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Craft Long Sleeve Tee",
+      "cat": "T-Shirts",
+      "price": 3990,
+      "mrp": 4990,
+      "rating": 4.8,
+      "reviews": 243,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Ivory",
+          "h": "#F2F0E9"
+        },
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        }
+      ],
+      "material": "220 GSM Organic Cotton",
+      "fit": "Relaxed",
+      "stock": 32,
+      "tagline": "Long sleeve. Layering essential.",
+      "desc": "220 GSM organic cotton with ribbed cuffs and side seams. The perfect base layer through winter.",
+      "care": "Cold wash. Line dry.",
+      "images": [
+        "https://images.unsplash.com/photo-1503341504253-dff4815485f1?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Striped Cotton Tee",
+      "cat": "T-Shirts",
+      "price": 3990,
+      "mrp": 4990,
+      "rating": 4.6,
+      "reviews": 154,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Ivory",
+          "h": "#F2F0E9"
+        },
+        {
+          "n": "Sage",
+          "h": "#A8C0A6"
+        }
+      ],
+      "material": "Cotton Jersey",
+      "fit": "Regular",
+      "stock": 27,
+      "tagline": "Breton stripes. House palette.",
+      "desc": "Yarn-dyed breton stripes in ivory and forest with ribbed neck and cuffs.",
+      "care": "Machine wash cold.",
+      "images": [
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1503341504253-dff4815485f1?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Linea Oxford Shirt",
+      "cat": "Shirts",
+      "price": 6490,
+      "mrp": 7990,
+      "rating": 4.8,
+      "reviews": 567,
+      "badge": "BESTSELLER",
+      "isNewArrival": false,
+      "isBest": true,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "White",
+          "h": "#fff"
+        },
+        {
+          "n": "Sky",
+          "h": "#D6E4E8"
+        }
+      ],
+      "material": "Oxford Cotton",
+      "fit": "Tailored · Sharp collar",
+      "stock": 24,
+      "tagline": "The sharpest white shirt in the room.",
+      "desc": "Two-fold oxford weave with single-needle stitching, reinforced collar and corozo buttons. Cut close through the body with room to move.",
+      "care": "Machine wash. Hot iron for crispness.",
+      "images": [
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Smeraldo Silk Shirt",
+      "cat": "Shirts",
+      "price": 9990,
+      "mrp": 12990,
+      "rating": 5,
+      "reviews": 143,
+      "badge": "LIMITED",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "n": "Emerald",
+          "h": "#0B3D2E"
+        },
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "Mulberry Silk Blend",
+      "fit": "Relaxed camp collar",
+      "stock": 9,
+      "tagline": "Liquid emerald silk. Evening essential.",
+      "desc": "22-momme mulberry silk with camp collar and hand-rolled hems. Catches light like water at night. Made in Como, finished in Jaipur.",
+      "care": "Dry clean only.",
+      "images": [
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1603252109303-2751441dd157?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Vela Linen Overshirt",
+      "cat": "Shirts",
+      "price": 7490,
+      "mrp": 8990,
+      "rating": 4.7,
+      "reviews": 221,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Stone",
+          "h": "#CFC6B4"
+        },
+        {
+          "n": "Olive",
+          "h": "#6B705C"
+        }
+      ],
+      "material": "European Linen",
+      "fit": "Relaxed overshirt",
+      "stock": 19,
+      "tagline": "Linen armour for hot days.",
+      "desc": "Heavyweight European flax linen with patch pockets and horn buttons. Softens beautifully with every wash.",
+      "care": "Machine wash gentle. Line dry.",
+      "images": [
+        "https://images.unsplash.com/photo-1603252109303-2751441dd157?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Linea Oxford Shirt · Sky",
+      "cat": "Shirts",
+      "price": 6490,
+      "mrp": 7990,
+      "rating": 4.8,
+      "reviews": 342,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Sky",
+          "h": "#D6E4E8"
+        }
+      ],
+      "material": "Oxford Cotton",
+      "fit": "Tailored · Sharp collar",
+      "stock": 26,
+      "tagline": "The oxford, in soft sky.",
+      "desc": "Two-fold oxford in pale sky with single-needle stitching and corozo buttons. Sharp collar, tailored body.",
+      "care": "Machine wash. Iron hot.",
+      "images": [
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Linea Oxford Shirt · Sage",
+      "cat": "Shirts",
+      "price": 6490,
+      "mrp": 7990,
+      "rating": 4.7,
+      "reviews": 198,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Sage",
+          "h": "#A8C0A6"
+        }
+      ],
+      "material": "Oxford Cotton",
+      "fit": "Tailored",
+      "stock": 22,
+      "tagline": "Sage oxford. Quiet colour.",
+      "desc": "Garment-dyed sage oxford with tonal stitching. A softer take on the classic.",
+      "care": "Machine wash cold.",
+      "images": [
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Smeraldo Silk Shirt · Ivory",
+      "cat": "Shirts",
+      "price": 9990,
+      "mrp": 12990,
+      "rating": 4.9,
+      "reviews": 112,
+      "badge": "LIMITED",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "n": "Ivory",
+          "h": "#EDE8DC"
+        }
+      ],
+      "material": "Mulberry Silk Blend",
+      "fit": "Relaxed camp collar",
+      "stock": 8,
+      "tagline": "Ivory silk. Sunlit evenings.",
+      "desc": "22-momme mulberry silk in warm ivory with hand-rolled hems and camp collar. Made in Como.",
+      "care": "Dry clean only.",
+      "images": [
+        "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1603252109303-2751441dd157?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Craft Flannel Overshirt",
+      "cat": "Shirts",
+      "price": 8490,
+      "mrp": 10490,
+      "rating": 4.8,
+      "reviews": 276,
+      "badge": "BESTSELLER",
+      "isNewArrival": false,
+      "isBest": true,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        },
+        {
+          "n": "Sand",
+          "h": "#CBBFA5"
+        }
+      ],
+      "material": "Brushed Cotton Flannel",
+      "fit": "Relaxed overshirt",
+      "stock": 23,
+      "tagline": "Brushed flannel. Winter armour.",
+      "desc": "Heavyweight brushed cotton flannel with chest pockets, corozo buttons and a boxy overshirt cut.",
+      "care": "Machine wash cold. Tumble low.",
+      "images": [
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Vela Linen Shirt · White",
+      "cat": "Shirts",
+      "price": 7490,
+      "mrp": 8990,
+      "rating": 4.7,
+      "reviews": 189,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "White",
+          "h": "#fff"
+        }
+      ],
+      "material": "European Linen",
+      "fit": "Relaxed",
+      "stock": 21,
+      "tagline": "Crisp linen. Endless summer.",
+      "desc": "Heavyweight European flax in optic white with mother-of-pearl buttons and a relaxed body.",
+      "care": "Gentle wash. Line dry.",
+      "images": [
+        "https://images.unsplash.com/photo-1603252109303-2751441dd157?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Atelier Band Collar Shirt",
+      "cat": "Shirts",
+      "price": 8990,
+      "mrp": 10990,
+      "rating": 4.8,
+      "reviews": 154,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Ivory",
+          "h": "#EDE8DC"
+        },
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "Cotton Poplin",
+      "fit": "Relaxed · Band collar",
+      "desc": "Band-collar poplin shirt with hidden placket and dropped shoulder. Minimal, elegant, layerable.",
+      "care": "Machine wash. Iron warm.",
+      "stock": 20,
+      "tagline": "Band collar. Quiet minimalism.",
+      "images": [
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1603252109303-2751441dd157?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Nube Cloud Hoodie",
+      "cat": "Hoodies",
+      "price": 7490,
+      "mrp": 9490,
+      "rating": 4.9,
+      "reviews": 763,
+      "badge": "BESTSELLER",
+      "isNewArrival": false,
+      "isBest": true,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Cloud",
+          "h": "#E8E6DF"
+        },
+        {
+          "n": "Sage",
+          "h": "#A8C0A6"
+        }
+      ],
+      "material": "480 GSM French Terry",
+      "fit": "Oversized",
+      "stock": 32,
+      "tagline": "480 GSM cloud. Double-lined hood.",
+      "desc": "Brushed-back French terry so dense it stands on its own. Double-layer hood, hidden phone pocket, tonal drawcords with metal tips.",
+      "care": "Cold wash. Do not tumble.",
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1509942774463-acf339cf87d5?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Foresta Heavy Hoodie",
+      "cat": "Hoodies",
+      "price": 8990,
+      "mrp": 10990,
+      "rating": 4.9,
+      "reviews": 512,
+      "badge": "BESTSELLER",
+      "isNewArrival": true,
+      "isBest": true,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Deep Green",
+          "h": "#0B3D2E"
+        },
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "500 GSM Loopback",
+      "fit": "Boxy heavy",
+      "stock": 27,
+      "tagline": "The deep-green heavyweight icon.",
+      "desc": "Our heaviest fleece ever at 500 GSM, garment-dyed deep emerald with puff-embroidered V. Ribbed side gussets for drape.",
+      "care": "Wash inside-out cold.",
+      "images": [
+        "https://images.unsplash.com/photo-1578681994506-b8f463449011?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Atelier Zip Hoodie",
+      "cat": "Hoodies",
+      "price": 9490,
+      "mrp": 11990,
+      "rating": 4.6,
+      "reviews": 134,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Charcoal",
+          "h": "#2B2B2B"
+        },
+        {
+          "n": "Ivory",
+          "h": "#F2F0E9"
+        }
+      ],
+      "material": "Wool Blend Fleece",
+      "fit": "Regular",
+      "stock": 15,
+      "tagline": "Tailored zip-through. YKK Excella.",
+      "desc": "Wool-blend double-face jersey with Excella zip, high collar and articulated sleeves. Hoodie meets blazer.",
+      "care": "Gentle wool wash.",
+      "images": [
+        "https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1578681994506-b8f463449011?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Nube Cloud Hoodie · Sage",
+      "cat": "Hoodies",
+      "price": 7490,
+      "mrp": 9490,
+      "rating": 4.9,
+      "reviews": 412,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Sage",
+          "h": "#A8C0A6"
+        }
+      ],
+      "material": "480 GSM French Terry",
+      "fit": "Oversized",
+      "stock": 30,
+      "tagline": "480 GSM cloud, in sage.",
+      "desc": "Sage garment-dyed 480 GSM French terry with double-lined hood and hidden pocket.",
+      "care": "Cold wash. Do not tumble.",
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1509942774463-acf339cf87d5?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Foresta Heavy Hoodie · Black",
+      "cat": "Hoodies",
+      "price": 8990,
+      "mrp": 10990,
+      "rating": 4.8,
+      "reviews": 341,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "500 GSM Loopback",
+      "fit": "Boxy heavy",
+      "stock": 26,
+      "tagline": "The heavyweight, in black.",
+      "desc": "500 GSM garment-dyed loopback in true black with puff-embroidered V and ribbed side gussets.",
+      "care": "Wash inside-out cold.",
+      "images": [
+        "https://images.unsplash.com/photo-1578681994506-b8f463449011?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Craft Quarter-Zip",
+      "cat": "Hoodies",
+      "price": 8490,
+      "mrp": 10490,
+      "rating": 4.7,
+      "reviews": 187,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        },
+        {
+          "n": "Stone",
+          "h": "#CFC6B4"
+        }
+      ],
+      "material": "Waffle Knit",
+      "fit": "Regular",
+      "stock": 22,
+      "tagline": "Waffle knit. Quarter zip.",
+      "desc": "Textured waffle-knit pullover with YKK quarter zip, funnel collar and raglan sleeves.",
+      "care": "Machine wash cold.",
+      "images": [
+        "https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Nube Cropped Hoodie",
+      "cat": "Hoodies",
+      "price": 6990,
+      "mrp": 8490,
+      "rating": 4.6,
+      "reviews": 126,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "colors": [
+        {
+          "n": "Cloud",
+          "h": "#E8E6DF"
+        },
+        {
+          "n": "Ivory",
+          "h": "#F2F0E9"
+        }
+      ],
+      "material": "420 GSM French Terry",
+      "fit": "Cropped",
+      "stock": 24,
+      "tagline": "Cropped cut. Same cloud feel.",
+      "desc": "Cropped version of the Nube in 420 GSM brushed-back French terry with raw hem.",
+      "care": "Cold wash.",
+      "images": [
+        "https://images.unsplash.com/photo-1509942774463-acf339cf87d5?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Atelier Full-Zip · Forest",
+      "cat": "Hoodies",
+      "price": 9990,
+      "mrp": 12490,
+      "rating": 4.8,
+      "reviews": 143,
+      "badge": "LIMITED",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        }
+      ],
+      "material": "Wool Blend Fleece",
+      "fit": "Regular",
+      "stock": 10,
+      "tagline": "Forest wool blend. Excella zip.",
+      "desc": "Wool-blend double-face jersey in forest with Excella zip, high collar and articulated sleeves.",
+      "care": "Gentle wool wash.",
+      "images": [
+        "https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1578681994506-b8f463449011?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Milano Leather Biker",
+      "cat": "Jackets",
+      "price": 34990,
+      "mrp": 42990,
+      "rating": 5,
+      "reviews": 98,
+      "badge": "LIMITED",
+      "isNewArrival": false,
+      "isBest": true,
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Black",
+          "h": "#111"
+        },
+        {
+          "n": "Espresso",
+          "h": "#3E2F27"
+        }
+      ],
+      "material": "Full-grain Leather",
+      "fit": "Slim biker",
+      "stock": 6,
+      "tagline": "Full-grain. 40 hours of handwork.",
+      "desc": "1.2mm full-grain aniline leather with emerald quilted satin lining, antique brass zips and hand-set snaps. Ages like a story.",
+      "care": "Leather specialist clean only.",
+      "images": [
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1520975954732-35dd22299614?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Bosco Field Jacket",
+      "cat": "Jackets",
+      "price": 18490,
+      "mrp": 22990,
+      "rating": 4.8,
+      "reviews": 342,
+      "badge": "BESTSELLER",
+      "isNewArrival": false,
+      "isBest": true,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Field Olive",
+          "h": "#5A6650"
+        },
+        {
+          "n": "Sand",
+          "h": "#CBBFA5"
+        }
+      ],
+      "material": "Waxed Canvas",
+      "fit": "Regular · 4 pockets",
+      "stock": 20,
+      "tagline": "Waxed canvas. Storm flap. Brass.",
+      "desc": "18oz British waxed canvas with corduroy collar, bellow pockets and storm cuffs. Re-waxable for life.",
+      "care": "Brush clean. Re-wax yearly.",
+      "images": [
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Sarto Wool Overcoat",
+      "cat": "Jackets",
+      "price": 24990,
+      "mrp": 31990,
+      "rating": 4.9,
+      "reviews": 76,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Forest Melton",
+          "h": "#123E32"
+        },
+        {
+          "n": "Camel",
+          "h": "#C19A6B"
+        }
+      ],
+      "material": "Italian Wool Melton",
+      "fit": "Long · Tailored",
+      "stock": 4,
+      "tagline": "Hand-canvassed overcoat.",
+      "desc": "Double-faced Italian melton wool with hand-felled seams, horn buttons and half-canvas chest. Cut long over tailoring.",
+      "care": "Dry clean only.",
+      "images": [
+        "https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Milano Leather Biker · Espresso",
+      "cat": "Jackets",
+      "price": 34990,
+      "mrp": 42990,
+      "rating": 5,
+      "reviews": 64,
+      "badge": "LIMITED",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Espresso",
+          "h": "#3E2F27"
+        }
+      ],
+      "material": "Full-grain Leather",
+      "fit": "Slim biker",
+      "stock": 5,
+      "tagline": "Espresso aniline. Warm tone.",
+      "desc": "1.2mm full-grain aniline in rich espresso with emerald quilted lining, brass zips and hand-set snaps.",
+      "care": "Leather specialist clean only.",
+      "images": [
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1520975954732-35dd22299614?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Bosco Field Jacket · Sand",
+      "cat": "Jackets",
+      "price": 18490,
+      "mrp": 22990,
+      "rating": 4.8,
+      "reviews": 187,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Sand",
+          "h": "#CBBFA5"
+        }
+      ],
+      "material": "Waxed Canvas",
+      "fit": "Regular · 4 pockets",
+      "stock": 18,
+      "tagline": "Sand waxed canvas. Desert-ready.",
+      "desc": "18oz waxed canvas in warm sand with corduroy collar, bellow pockets and storm cuffs.",
+      "care": "Brush clean. Re-wax yearly.",
+      "images": [
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Nube Quilted Vest",
+      "cat": "Jackets",
+      "price": 11990,
+      "mrp": 14990,
+      "rating": 4.7,
+      "reviews": 212,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        },
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "Recycled Nylon",
+      "fit": "Regular",
+      "stock": 25,
+      "tagline": "Quilted vest. Layering hero.",
+      "desc": "Diamond-quilted recycled nylon vest with recycled down-alternative fill, two-way zip and zip side pockets.",
+      "care": "Machine wash cold. Tumble low.",
+      "images": [
+        "https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Vela Linen Blazer",
+      "cat": "Jackets",
+      "price": 16990,
+      "mrp": 20990,
+      "rating": 4.8,
+      "reviews": 143,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Stone",
+          "h": "#CFC6B4"
+        },
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        }
+      ],
+      "material": "European Linen",
+      "fit": "Unstructured",
+      "stock": 14,
+      "tagline": "Unstructured linen. Summer tailoring.",
+      "desc": "Half-lined European linen blazer with patch pockets, soft shoulder and horn buttons. Tailoring without the fuss.",
+      "care": "Dry clean recommended.",
+      "images": [
+        "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Craft Sherpa Jacket",
+      "cat": "Jackets",
+      "price": 19990,
+      "mrp": 24990,
+      "rating": 4.9,
+      "reviews": 178,
+      "badge": "BESTSELLER",
+      "isNewArrival": false,
+      "isBest": true,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Ivory",
+          "h": "#F2F0E9"
+        },
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        }
+      ],
+      "material": "Sherpa Fleece",
+      "fit": "Regular",
+      "stock": 19,
+      "tagline": "Sherpa fleece. Winter warm.",
+      "desc": "Deep-pile sherpa fleece with full zip, chest pocket and reinforced elbow patches.",
+      "care": "Machine wash cold. Tumble low.",
+      "images": [
+        "https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Sarto Trench Coat",
+      "cat": "Jackets",
+      "price": 27990,
+      "mrp": 34990,
+      "rating": 4.9,
+      "reviews": 87,
+      "badge": "LIMITED",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Sand",
+          "h": "#CBBFA5"
+        },
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        }
+      ],
+      "material": "Cotton Gabardine",
+      "fit": "Long · Belted",
+      "stock": 6,
+      "tagline": "Gabardine trench. Storm-ready.",
+      "desc": "Water-repellent cotton gabardine trench with storm flaps, throat latch and belted waist. Fully lined.",
+      "care": "Dry clean only.",
+      "images": [
+        "https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1544022613-e87ca75a784a?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Sartor Pleated Trouser",
+      "cat": "Trousers",
+      "price": 8490,
+      "mrp": 10490,
+      "rating": 4.8,
+      "reviews": 189,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        {
+          "n": "Ivory",
+          "h": "#EFEADF"
+        },
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "Wool Blend Twill",
+      "fit": "High-rise tapered",
+      "stock": 21,
+      "tagline": "Double-pleat. Extended tab.",
+      "desc": "High-rise double-pleated trouser with extended waist tab, side adjusters and cropped taper. Crease holds for days.",
+      "care": "Dry clean recommended.",
+      "images": [
+        "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Vela Cargo Trouser",
+      "cat": "Trousers",
+      "price": 9490,
+      "mrp": 11990,
+      "rating": 4.9,
+      "reviews": 445,
+      "badge": "BESTSELLER",
+      "isNewArrival": false,
+      "isBest": true,
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        {
+          "n": "Forest Ripstop",
+          "h": "#2F3E33"
+        },
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "Cotton Ripstop",
+      "fit": "Relaxed cargo",
+      "stock": 29,
+      "tagline": "6-pocket ripstop. Bungee hem.",
+      "desc": "Tear-proof ripstop with 6 utility pockets, bartacked stress points and adjustable bungee hems. Garment-dyed.",
+      "care": "Machine wash cold.",
+      "images": [
+        "https://images.unsplash.com/photo-1507680434567-5739c80be66d?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Linea Tailored Denim",
+      "cat": "Trousers",
+      "price": 7990,
+      "mrp": 9990,
+      "rating": 4.7,
+      "reviews": 267,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        {
+          "n": "Rinse",
+          "h": "#2E3A4A"
+        },
+        {
+          "n": "Washed Black",
+          "h": "#222"
+        }
+      ],
+      "material": "14oz Japanese Denim",
+      "fit": "Slim tapered",
+      "stock": 33,
+      "tagline": "14oz Japanese selvedge.",
+      "desc": "14oz Kaihara selvedge denim with hidden selvedge coin pocket, chainstitched hems and matte shank button. Fades beautifully.",
+      "care": "Wash rarely, cold.",
+      "images": [
+        "https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Sartor Pleated Trouser · Black",
+      "cat": "Trousers",
+      "price": 8490,
+      "mrp": 10490,
+      "rating": 4.8,
+      "reviews": 143,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "Wool Blend Twill",
+      "fit": "High-rise tapered",
+      "stock": 22,
+      "tagline": "Pleated tailoring, in black.",
+      "desc": "High-rise double-pleated black trouser with extended tab and side adjusters. Sharp and versatile.",
+      "care": "Dry clean recommended.",
+      "images": [
+        "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Vela Cargo Trouser · Sand",
+      "cat": "Trousers",
+      "price": 9490,
+      "mrp": 11990,
+      "rating": 4.8,
+      "reviews": 298,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        {
+          "n": "Sand",
+          "h": "#CBBFA5"
+        }
+      ],
+      "material": "Cotton Ripstop",
+      "fit": "Relaxed cargo",
+      "stock": 25,
+      "tagline": "Ripstop cargo in warm sand.",
+      "desc": "6-pocket ripstop cargo in garment-dyed sand with bungee hems and bartacked stress points.",
+      "care": "Machine wash cold.",
+      "images": [
+        "https://images.unsplash.com/photo-1507680434567-5739c80be66d?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Linea Wide Denim",
+      "cat": "Trousers",
+      "price": 8490,
+      "mrp": 10490,
+      "rating": 4.7,
+      "reviews": 189,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        {
+          "n": "Rinse",
+          "h": "#2E3A4A"
+        }
+      ],
+      "material": "13oz Japanese Denim",
+      "fit": "Wide straight",
+      "stock": 28,
+      "tagline": "Wide straight. Relaxed drape.",
+      "desc": "13oz Kaihara denim cut wide and straight with a high rise and clean hem. Effortless everyday denim.",
+      "care": "Wash rarely, cold.",
+      "images": [
+        "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Craft Wool Trouser",
+      "cat": "Trousers",
+      "price": 9990,
+      "mrp": 12490,
+      "rating": 4.8,
+      "reviews": 134,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        {
+          "n": "Charcoal",
+          "h": "#2B2B2B"
+        },
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        }
+      ],
+      "material": "Italian Wool",
+      "fit": "Straight tailored",
+      "stock": 18,
+      "tagline": "Italian wool. Tailored straight.",
+      "desc": "Mid-rise straight tailored trouser in Italian wool with clean front and horn buttons.",
+      "care": "Dry clean only.",
+      "images": [
+        "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Vela Drawstring Trouser",
+      "cat": "Trousers",
+      "price": 6990,
+      "mrp": 8490,
+      "rating": 4.6,
+      "reviews": 167,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "n": "Stone",
+          "h": "#CFC6B4"
+        },
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        }
+      ],
+      "material": "Cotton Twill",
+      "fit": "Relaxed drawstring",
+      "stock": 30,
+      "tagline": "Drawstring. Tailored comfort.",
+      "desc": "Relaxed cotton twill trouser with elasticated drawstring waist, side pockets and tapered leg.",
+      "care": "Machine wash cold.",
+      "images": [
+        "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1507680434567-5739c80be66d?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Linea Cropped Chino",
+      "cat": "Trousers",
+      "price": 7490,
+      "mrp": 8990,
+      "rating": 4.7,
+      "reviews": 198,
+      "badge": "BESTSELLER",
+      "isNewArrival": false,
+      "isBest": true,
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        {
+          "n": "Sand",
+          "h": "#CBBFA5"
+        },
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        }
+      ],
+      "material": "Cotton Twill",
+      "fit": "Cropped tapered",
+      "stock": 26,
+      "tagline": "Cropped chino. Clean break.",
+      "desc": "Mid-rise cropped chino in garment-dyed cotton twill with clean front and slanted pockets.",
+      "care": "Machine wash cold.",
+      "images": [
+        "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Verde Leather Belt",
+      "cat": "Accessories",
+      "price": 4990,
+      "mrp": 6490,
+      "rating": 4.8,
+      "reviews": 156,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "OS"
+      ],
+      "colors": [
+        {
+          "n": "Tan",
+          "h": "#8B5E3C"
+        },
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "Veg-tan Leather",
+      "fit": "One size · 32-38",
+      "stock": 40,
+      "tagline": "Veg-tan. Solid brass V buckle.",
+      "desc": "3.5mm vegetable-tanned leather with solid brass Vérant buckle. Burnished edges darken with wear.",
+      "care": "Condition occasionally.",
+      "images": [
+        "https://images.unsplash.com/photo-1624222247344-550fb60583dc?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Foresta Wool Cap",
+      "cat": "Accessories",
+      "price": 2990,
+      "mrp": 3990,
+      "rating": 4.7,
+      "reviews": 203,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "OS"
+      ],
+      "colors": [
+        {
+          "n": "Forest",
+          "h": "#0B3D2E"
+        },
+        {
+          "n": "Sage",
+          "h": "#A8C0A6"
+        }
+      ],
+      "material": "Merino Wool",
+      "fit": "Adjustable",
+      "stock": 38,
+      "tagline": "Merino 6-panel. Embroidered.",
+      "desc": "Six-panel cap in brushed merino with embroidered monogram, leather strap and brass slider.",
+      "care": "Spot clean.",
+      "images": [
+        "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Vela Canvas Tote",
+      "cat": "Accessories",
+      "price": 5490,
+      "mrp": 6990,
+      "rating": 4.9,
+      "reviews": 378,
+      "badge": "BESTSELLER",
+      "isNewArrival": false,
+      "isBest": true,
+      "sizes": [
+        "OS"
+      ],
+      "colors": [
+        {
+          "n": "Natural",
+          "h": "#E8E0C8"
+        },
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        }
+      ],
+      "material": "22oz Canvas + Leather",
+      "fit": "18L · Laptop fit",
+      "stock": 25,
+      "tagline": "22oz canvas. Leather handles.",
+      "desc": "22oz army duck canvas with veg-tan handles, interior zip and magnetic closure. Carries 16-inch laptop.",
+      "care": "Brush clean.",
+      "images": [
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Smeraldo Silk Scarf",
+      "cat": "Accessories",
+      "price": 6990,
+      "mrp": 8990,
+      "rating": 4.9,
+      "reviews": 87,
+      "badge": "LIMITED",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "OS"
+      ],
+      "colors": [
+        {
+          "n": "Emerald Print",
+          "h": "#0B3D2E"
+        },
+        {
+          "n": "Ivory Print",
+          "h": "#EDE8DC"
+        }
+      ],
+      "material": "Twill Silk",
+      "fit": "90 x 90 cm",
+      "stock": 0,
+      "tagline": "Hand-rolled. Atelier print.",
+      "desc": "Twill silk scarf with hand-drawn Verdant garden print, hand-rolled edges. Designed in our Milano studio.",
+      "care": "Dry clean only.",
+      "images": [
+        "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Court Socks Trio",
+      "cat": "Accessories",
+      "price": 1490,
+      "mrp": 1990,
+      "rating": 4.8,
+      "reviews": 512,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "OS"
+      ],
+      "colors": [
+        {
+          "n": "Mix",
+          "h": "#0B3D2E"
+        }
+      ],
+      "material": "Combed Cotton",
+      "fit": "UK 7-11",
+      "stock": 60,
+      "tagline": "Cushioned trio. Arch support.",
+      "desc": "Three pairs of cushioned combed-cotton socks with arch compression and terry heel. Ivory, forest, sage.",
+      "care": "Machine wash.",
+      "images": [
+        "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Verde Leather Belt · Black",
+      "cat": "Accessories",
+      "price": 4990,
+      "mrp": 6490,
+      "rating": 4.8,
+      "reviews": 134,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "OS"
+      ],
+      "colors": [
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "Veg-tan Leather",
+      "fit": "One size · 32-38",
+      "stock": 36,
+      "tagline": "Veg-tan. Black. Brass.",
+      "desc": "3.5mm veg-tan black leather with solid brass Vérant buckle and burnished edges.",
+      "care": "Condition occasionally.",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1624222247344-550fb60583dc?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Foresta Wool Beanie",
+      "cat": "Accessories",
+      "price": 2490,
+      "mrp": 3290,
+      "rating": 4.8,
+      "reviews": 287,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "OS"
+      ],
+      "colors": [
+        {
+          "n": "Forest",
+          "h": "#0B3D2E"
+        },
+        {
+          "n": "Ivory",
+          "h": "#F2F0E9"
+        }
+      ],
+      "material": "Merino Wool",
+      "fit": "One size",
+      "stock": 44,
+      "tagline": "Ribbed merino. Embroidered V.",
+      "desc": "Ribbed-knit merino beanie with tonal embroidered monogram and fold-over cuff.",
+      "care": "Hand wash cold.",
+      "images": [
+        "https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Vela Canvas Tote · Forest",
+      "cat": "Accessories",
+      "price": 5490,
+      "mrp": 6990,
+      "rating": 4.9,
+      "reviews": 243,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "OS"
+      ],
+      "colors": [
+        {
+          "n": "Forest",
+          "h": "#123E32"
+        }
+      ],
+      "material": "22oz Canvas + Leather",
+      "fit": "18L · Laptop fit",
+      "stock": 22,
+      "tagline": "22oz canvas, in forest.",
+      "desc": "22oz army duck canvas in forest with veg-tan handles and magnetic closure.",
+      "care": "Brush clean.",
+      "images": [
+        "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Smeraldo Silk Scarf · Ivory",
+      "cat": "Accessories",
+      "price": 6990,
+      "mrp": 8990,
+      "rating": 4.9,
+      "reviews": 64,
+      "badge": "LIMITED",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "OS"
+      ],
+      "colors": [
+        {
+          "n": "Ivory Print",
+          "h": "#EDE8DC"
+        }
+      ],
+      "material": "Twill Silk",
+      "fit": "90 x 90 cm",
+      "stock": 5,
+      "tagline": "Ivory silk. Hand-rolled.",
+      "desc": "Twill silk scarf in ivory with hand-drawn Verdant garden print and hand-rolled edges.",
+      "care": "Dry clean only.",
+      "images": [
+        "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Craft Leather Card Holder",
+      "cat": "Accessories",
+      "price": 2990,
+      "mrp": 3990,
+      "rating": 4.7,
+      "reviews": 198,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "OS"
+      ],
+      "colors": [
+        {
+          "n": "Tan",
+          "h": "#8B5E3C"
+        },
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "Veg-tan Leather",
+      "fit": "Slim · 4 cards",
+      "stock": 48,
+      "tagline": "Veg-tan. Slim. Hand-stitched.",
+      "desc": "Slim 4-slot card holder in vegetable-tanned leather with hand-stitched edges. Develops a beautiful patina.",
+      "care": "Condition occasionally.",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1624222247344-550fb60583dc?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Court Socks Trio · Forest",
+      "cat": "Accessories",
+      "price": 1490,
+      "mrp": 1990,
+      "rating": 4.8,
+      "reviews": 341,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "OS"
+      ],
+      "colors": [
+        {
+          "n": "Forest",
+          "h": "#0B3D2E"
+        }
+      ],
+      "material": "Combed Cotton",
+      "fit": "UK 7-11",
+      "stock": 55,
+      "tagline": "Forest trio. Arch support.",
+      "desc": "Three pairs of cushioned combed-cotton socks in forest tones with arch compression and terry heel.",
+      "care": "Machine wash.",
+      "images": [
+        "https://images.unsplash.com/photo-1586350977771-b3b0abd50c82?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Verdant Silk Pocket Square",
+      "cat": "Accessories",
+      "price": 3490,
+      "mrp": 4490,
+      "rating": 4.8,
+      "reviews": 112,
+      "badge": "NEW",
+      "isNewArrival": true,
+      "isBest": false,
+      "sizes": [
+        "OS"
+      ],
+      "colors": [
+        {
+          "n": "Emerald",
+          "h": "#0B3D2E"
+        },
+        {
+          "n": "Ivory",
+          "h": "#EDE8DC"
+        }
+      ],
+      "material": "Silk Twill",
+      "fit": "30 x 30 cm",
+      "stock": 32,
+      "tagline": "Hand-rolled. Atelier print.",
+      "desc": "Silk twill pocket square with hand-drawn Verdant print and hand-rolled edges. The finishing touch.",
+      "care": "Dry clean only.",
+      "images": [
+        "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Foresta Wool Gloves",
+      "cat": "Accessories",
+      "price": 3990,
+      "mrp": 4990,
+      "rating": 4.7,
+      "reviews": 96,
+      "badge": "",
+      "isNewArrival": false,
+      "isBest": false,
+      "sizes": [
+        "OS"
+      ],
+      "colors": [
+        {
+          "n": "Forest",
+          "h": "#0B3D2E"
+        },
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "Merino Wool",
+      "fit": "One size",
+      "stock": 34,
+      "tagline": "Merino knit. Touchscreen tips.",
+      "desc": "Ribbed merino knit gloves with conductive touchscreen fingertips and tonal embroidered V.",
+      "care": "Hand wash cold.",
+      "images": [
+        "https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=1000&auto=format&fit=crop"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Verde Leather Wallet",
+      "cat": "Accessories",
+      "price": 5990,
+      "mrp": 7490,
+      "rating": 4.9,
+      "reviews": 176,
+      "badge": "BESTSELLER",
+      "isNewArrival": false,
+      "isBest": true,
+      "sizes": [
+        "OS"
+      ],
+      "colors": [
+        {
+          "n": "Tan",
+          "h": "#8B5E3C"
+        },
+        {
+          "n": "Black",
+          "h": "#111"
+        }
+      ],
+      "material": "Veg-tan Leather",
+      "fit": "Bifold · 8 cards",
+      "stock": 30,
+      "tagline": "Veg-tan bifold. Hand-burnished.",
+      "desc": "Bifold wallet in vegetable-tanned leather with 8 card slots, bill compartment and hand-burnished edges.",
+      "care": "Condition occasionally.",
+      "images": [
+        "https://images.unsplash.com/photo-1624222247344-550fb60583dc?q=80&w=1000&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1000&auto=format&fit=crop"
+      ]
+    }
+  ],
+  "looks": [
+    {
+      "img": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?q=80&w=1200&auto=format&fit=crop",
+      "n": "Look 01 — Verdant Tailoring",
+      "d": "Smeraldo silk + Sartor pleats",
+      "ids": [
+        9,
+        17,
+        1
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?q=80&w=1200&auto=format&fit=crop",
+      "n": "Look 02 — Ivory Discipline",
+      "d": "Linea oxford + tailored denim",
+      "ids": [
+        8,
+        19,
+        2
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1200&auto=format&fit=crop",
+      "n": "Look 03 — Forest Heavy",
+      "d": "Foresta hoodie + Vela cargo",
+      "ids": [
+        12,
+        18,
+        4
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1200&auto=format&fit=crop",
+      "n": "Look 04 — Milano Night",
+      "d": "Leather biker + silk",
+      "ids": [
+        14,
+        9,
+        1
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1200&auto=format&fit=crop",
+      "n": "Look 05 — Sage Study",
+      "d": "Piqué + linen overshirt",
+      "ids": [
+        7,
+        10,
+        21
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1200&auto=format&fit=crop",
+      "n": "Look 06 — Field Craft",
+      "d": "Bosco field + heavy tee",
+      "ids": [
+        15,
+        5,
+        22
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?q=80&w=1200&auto=format&fit=crop",
+      "n": "Look 07 — Winter Mono",
+      "d": "Sarto overcoat + wool trouser",
+      "ids": [
+        16,
+        56,
+        60
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?q=80&w=1200&auto=format&fit=crop",
+      "n": "Look 08 — Monsoon Prep",
+      "d": "Bosco GTX + field jacket",
+      "ids": [
+        4,
+        15,
+        63
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=1200&auto=format&fit=crop",
+      "n": "Look 09 — Summer Linen",
+      "d": "Vela linen + cropped chino",
+      "ids": [
+        10,
+        58,
+        65
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?q=80&w=1200&auto=format&fit=crop",
+      "n": "Look 10 — Sherpa Season",
+      "d": "Craft sherpa + foresta beanie",
+      "ids": [
+        51,
+        60,
+        12
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?q=80&w=1200&auto=format&fit=crop",
+      "n": "Look 11 — Atelier Clean",
+      "d": "Band collar + wool trouser",
+      "ids": [
+        41,
+        56,
+        63
+      ]
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1200&auto=format&fit=crop",
+      "n": "Look 12 — Weekend Tonal",
+      "d": "Nube hoodie + wide denim",
+      "ids": [
+        11,
+        55,
+        64
+      ]
+    }
+  ],
+  "craft": [
+    {
+      "img": "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?q=80&w=1000&auto=format&fit=crop",
+      "t": "240 GSM Organic Cotton",
+      "d": "Dense, pre-shrunk, bio-washed. Grown without pesticides in Gujarat."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1473188588951-666fce8e7c68?q=80&w=1000&auto=format&fit=crop",
+      "t": "Full-Grain Aniline Leather",
+      "d": "1.2mm hides from Tuscany. Hand-burnished edges, 40 hours per jacket."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?q=80&w=1000&auto=format&fit=crop",
+      "t": "Single-Needle Tailoring",
+      "d": "18 stitches per inch. Floating canvas. Horn & corozo buttons only."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?q=80&w=1000&auto=format&fit=crop",
+      "t": "Garment Dyeing",
+      "d": "Dyed after stitching for depth. Forest, sage and ivory — our house palette."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=1000&auto=format&fit=crop",
+      "t": "Two-Fold Oxford Weave",
+      "d": "Woven in Coimbatore. Single-needle stitching at 18 SPI. Built to outlast trends."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1000&auto=format&fit=crop",
+      "t": "Hand-Burnished Soles",
+      "d": "Every cupsole edge burnished by hand for a living shine that ages with the wearer."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1603252109303-2751441dd157?q=80&w=1000&auto=format&fit=crop",
+      "t": "European Flax Linen",
+      "d": "Certified European flax, woven in Portugal. Softens with every wash."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=1000&auto=format&fit=crop",
+      "t": "500 GSM Loopback Fleece",
+      "d": "Our heaviest fleece. Garment-dyed, brushed for loft, built to stand on its own."
+    }
+  ],
+  "categories": [
+    "Sneakers",
+    "T-Shirts",
+    "Shirts",
+    "Hoodies",
+    "Jackets",
+    "Trousers",
+    "Accessories"
+  ],
+  "categoryTiles": [
+    [
+      "Sneakers",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=700&auto=format&fit=crop"
+    ],
+    [
+      "T-Shirts",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=700&auto=format&fit=crop"
+    ],
+    [
+      "Shirts",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=700&auto=format&fit=crop"
+    ],
+    [
+      "Hoodies",
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=700&auto=format&fit=crop"
+    ],
+    [
+      "Jackets",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=700&auto=format&fit=crop"
+    ],
+    [
+      "Trousers",
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=700&auto=format&fit=crop"
+    ],
+    [
+      "Accessories",
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=700&auto=format&fit=crop"
+    ]
+  ],
+  "sizeOptions": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL",
+    "30",
+    "32",
+    "34",
+    "36",
+    "38",
+    "UK 7",
+    "UK 8",
+    "UK 9",
+    "UK 10",
+    "UK 11",
+    "UK 12",
+    "OS"
+  ],
+  "colorOptions": [
+    "White",
+    "Ivory",
+    "Cloud",
+    "Sand",
+    "Stone",
+    "Green",
+    "Forest",
+    "Emerald",
+    "Sage",
+    "Olive",
+    "Field Olive",
+    "Black",
+    "Charcoal",
+    "Brown",
+    "Tan",
+    "Espresso",
+    "Sky",
+    "Camel",
+    "Natural"
+  ],
+  "materialOptions": [
+    "Cotton",
+    "Organic Cotton",
+    "Supima Cotton",
+    "Piqué",
+    "Leather",
+    "Suede",
+    "Silk",
+    "Linen",
+    "Wool",
+    "Merino",
+    "Denim",
+    "Canvas",
+    "Ripstop",
+    "Technical",
+    "Knit",
+    "Fleece",
+    "Sherpa"
+  ],
+  "testimonials": [
+    {
+      "name": "Aarav Mehta",
+      "city": "Mumbai",
+      "quote": "The Court Low 07 fits like it was lasted on my foot. Three months in, the emerald burnish looks better than day one."
+    },
+    {
+      "name": "Rohan Kapoor",
+      "city": "Delhi",
+      "quote": "Heaviest hoodie I own. The Foresta drapes like a coat. Worth every rupee — this is international quality."
+    },
+    {
+      "name": "Arjun Nair",
+      "city": "Bengaluru",
+      "quote": "Ordered Monday, wearing Friday. Silk shirt got me four compliments in one evening. Vérant is my uniform now."
+    },
+    {
+      "name": "Kabir Sethi",
+      "city": "Pune",
+      "quote": "The waxed field jacket has survived two monsoons and a trek in the Sahyadris. Still looks better than new."
+    },
+    {
+      "name": "Vikram Joshi",
+      "city": "Hyderabad",
+      "quote": "Linea oxford is the sharpest white shirt I have owned under ₹10k. Collar still stands crisp after 20 washes."
+    },
+    {
+      "name": "Aditya Rao",
+      "city": "Chennai",
+      "quote": "The Smeraldo silk shirt is liquid. Wore it to a wedding, got asked where I bought it six times."
+    },
+    {
+      "name": "Ishaan Verma",
+      "city": "Kolkata",
+      "quote": "Vela cargo trouser is the only trouser I have worn for three months straight. Ripstop is no joke."
+    },
+    {
+      "name": "Neel Shah",
+      "city": "Ahmedabad",
+      "quote": "Court socks are criminally underrated. Cushioned, breathable, and the colours match everything I own."
+    }
+  ]
+}
