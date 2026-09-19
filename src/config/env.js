@@ -18,9 +18,9 @@ function required(name, fallback) {
 }
 
 const env = {
-  NODE_ENV: process.env.NODE_ENV || 'development',
+  NODE_ENV: process.env.NODE_ENV,
   PORT: Number(process.env.PORT) || 5000,
-  CLIENT_URL: process.env.CLIENT_URL || 'http://localhost:3000',
+  CLIENT_URL: process.env.CLIENT_URL || 'http://localhost:3000/',
 
   MONGO_URI: required('MONGO_URI'),
 
