@@ -9,6 +9,7 @@ const hpp = require('hpp');
 const xssClean = require('xss-clean');
 
 const env = require('./config/env');
+const connectDB = require('./config/db');
 const routes = require('./routes');
 const { notFound, errorHandler } = require('./middlewares/error.middleware');
 const { apiLimiter } = require('./middlewares/rateLimiter.middleware');
@@ -47,6 +48,27 @@ if (!env.isProd) app.use(morgan('dev'));
 
 // --- Rate limiting for all /api routes ---
 app.use('/api', apiLimiter);
+
+// --- Ensure a MongoDB connection before touching any /api route ---
+// Locally, server.js already connects once at boot, so this resolves from
+// the cache instantly. On Vercel (serverless), there is no long-running
+// boot step — each cold invocation gets its DB connection here instead,
+// and warm invocations reuse the cached connection from config/db.js.
+// This is what actually fixes the "Task timed out after 10.00 seconds"
+// error: without it, a cold function had no connection at all and every
+// query hung until Vercel killed the invocation.
+app.use('/api', async (req, res, next) => {
+  try {
+    await connectDB();
+    next();
+  } catch (error) {
+    console.error('[mongo] Could not connect:', error.message);
+    res.status(503).json({
+      success: false,
+      message: 'Database is temporarily unavailable. Please try again shortly.',
+    });
+  }
+});
 
 // --- Routes ---
 app.use('/api', routes);

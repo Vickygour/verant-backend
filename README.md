@@ -221,6 +221,55 @@ Any plain Node host works — Render, Railway, a VPS with PM2, etc.
 
 ---
 
+## 7b. Deploying to Vercel (fixes the "Task timed out after 10.00 seconds" error)
+
+Express apps are NOT servers on Vercel — every request is its own short-lived
+serverless function invocation. The `builds`/`routes` pieces below already
+exist in this repo (`api/index.js` + `vercel.json`); deploying without them
+is exactly what causes the 10-second timeout, because Vercel had nothing to
+actually invoke and every request just hung.
+
+1. **Import the repo in Vercel** (New Project → this repo). Vercel will
+   auto-detect it as a Node project. Do not change the root directory unless
+   this backend lives in a sub-folder of a monorepo — then set the Vercel
+   "Root Directory" to that folder.
+2. **Set every environment variable** from `.env.example` under
+   *Project Settings → Environment Variables* (Production **and** Preview):
+   `MONGO_URI`, `JWT_SECRET`, `JWT_REFRESH_SECRET`, `CLIENT_URL`,
+   `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`,
+   `SMTP_FROM`, `ADMIN_EMAIL`, `ADMIN_PASSWORD`, `OTP_EXPIRY_MINUTES`.
+   Forgetting `MONGO_URI` or `JWT_SECRET` now fails fast with a clear 500
+   instead of hanging (see `src/config/env.js`).
+3. **MongoDB Atlas network access** — under Atlas → Network Access, allow
+   `0.0.0.0/0` (or Vercel's IP ranges). Vercel functions run on rotating IPs,
+   so a locked-down IP allow-list is a very common cause of connections that
+   hang until they time out.
+4. **Deploy.** Vercel reads `vercel.json`, builds `api/index.js` as a
+   serverless function with `@vercel/node`, and rewrites every path
+   (`/api/products`, `/api/auth/login`, etc.) to it.
+5. **Seed the production database once**, from your machine, pointing
+   `MONGO_URI` at the same Atlas cluster: `npm run seed`.
+6. **Verify** by opening `https://<your-backend>.vercel.app/api/health` —
+   it should respond immediately with `{ "success": true, ... }`. If it
+   still times out, check the Vercel function logs first (Project →
+   Deployments → the deployment → Functions) — almost always a Mongo
+   connection/IP allow-list problem, not a code problem, once
+   `api/index.js`/`vercel.json` are in place.
+7. Point the frontend's `NEXT_PUBLIC_API_URL` at
+   `https://<your-backend>.vercel.app/api` (must include `/api`), and set
+   this backend's `CLIENT_URL` to the frontend's deployed URL so CORS allows it.
+
+**Why this fixes it, technically:** `src/server.js` (used for local dev /
+Docker) calls `app.listen()`, which only makes sense for a long-running
+process — Vercel never runs that file. `api/index.js` exports the same
+Express `app` directly as the serverless function handler instead. And
+because a serverless function has no persistent "server startup" step,
+`src/app.js` now opens (or reuses, via the cache in `src/config/db.js`) the
+MongoDB connection on the first `/api/*` request of every invocation, rather
+than relying on a one-time boot connection that never happened.
+
+---
+
 ## 8. Security features already wired in
 
 - `helmet` — secure HTTP headers

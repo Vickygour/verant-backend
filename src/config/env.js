@@ -10,9 +10,13 @@ require('dotenv').config();
 function required(name, fallback) {
   const value = process.env[name] ?? fallback;
   if (value === undefined || value === '') {
-    // eslint-disable-next-line no-console
-    console.error(`[config] Missing required environment variable: ${name}`);
-    process.exit(1);
+    // Throw instead of process.exit(1): this file is also loaded inside a
+    // Vercel serverless function (api/index.js → src/app.js), where killing
+    // the whole process on a missing env var can take other in-flight
+    // invocations down with it. Throwing surfaces a normal 500 with a clear
+    // message instead, and `npm start`/`npm run dev` still crash loudly
+    // because nothing catches this at the top level in src/server.js.
+    throw new Error(`[config] Missing required environment variable: ${name}`);
   }
   return value;
 }
