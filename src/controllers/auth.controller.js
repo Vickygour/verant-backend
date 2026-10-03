@@ -1,3 +1,4 @@
+const { OAuth2Client } = require('google-auth-library');
 const User = require('../models/User');
 const asyncHandler = require('../utils/asyncHandler');
 const ApiError = require('../utils/ApiError');
@@ -13,12 +14,12 @@ const {
 } = require('../utils/emailTemplates');
 
 const OTP_TTL_MS = env.OTP_EXPIRY_MINUTES * 60 * 1000;
+const googleClient = new OAuth2Client(env.GOOGLE_CLIENT_ID);
 
-/**
- * POST /api/auth/signup
- * Creates an UNVERIFIED user and emails a 6-digit OTP.
- * Matches the frontend's signup → verify flow exactly.
- */
+/* ------------------------------------------------------------------ */
+/*  LOCAL AUTH (email + password + OTP)                                */
+/* ------------------------------------------------------------------ */
+
 const signup = asyncHandler(async (req, res) => {
   const { name, email, password } = req.body;
 
@@ -33,9 +34,9 @@ const signup = asyncHandler(async (req, res) => {
 
   let user;
   if (existing && !existing.isVerified) {
-    // Re-signup with same, still-unverified email: refresh their details + OTP
     existing.name = name;
-    existing.password = password; // will be re-hashed by pre-save hook
+    existing.password = password;
+    existing.authProvider = 'local';
     existing.otp = otp;
     existing.otpExpires = otpExpires;
     existing.otpPurpose = 'signup';
@@ -45,6 +46,7 @@ const signup = asyncHandler(async (req, res) => {
       name,
       email,
       password,
+      authProvider: 'local',
       otp,
       otpExpires,
       otpPurpose: 'signup',
@@ -63,11 +65,6 @@ const signup = asyncHandler(async (req, res) => {
   }).send(res);
 });
 
-/**
- * POST /api/auth/verify-otp
- * Confirms the signup OTP, marks the account verified, returns a JWT
- * so the user is logged straight in (same UX as the frontend's "verify" step).
- */
 const verifyOtp = asyncHandler(async (req, res) => {
   const { email, otp } = req.body;
 
@@ -100,7 +97,7 @@ const verifyOtp = asyncHandler(async (req, res) => {
     to: user.email,
     subject: 'Welcome to VÉRANT',
     html: welcomeEmailTemplate({ name: user.name }),
-  }).catch(() => {}); // welcome email is best-effort, never blocks the response
+  }).catch(() => { });
 
   const token = generateToken(user._id, user.role);
 
@@ -110,11 +107,6 @@ const verifyOtp = asyncHandler(async (req, res) => {
   }).send(res);
 });
 
-/**
- * POST /api/auth/resend-otp
- * Re-issues a fresh OTP for either a pending signup or a password reset.
- * Rate-limited at the route level (otpLimiter) to stop inbox spam.
- */
 const resendOtp = asyncHandler(async (req, res) => {
   const { email } = req.body;
 
@@ -139,16 +131,16 @@ const resendOtp = asyncHandler(async (req, res) => {
   return new ApiResponse(200, `A new verification code was sent to ${user.email}.`).send(res);
 });
 
-/**
- * POST /api/auth/login
- * Rate-limited via loginLimiter middleware on the route (5 attempts / 10 min).
- */
 const login = asyncHandler(async (req, res) => {
   const { email, password } = req.body;
 
   const user = await User.findOne({ email }).select('+password');
   if (!user || !(await user.comparePassword(password))) {
     throw new ApiError(401, 'Incorrect email or password.');
+  }
+
+  if (user.authProvider === 'google' && !user.password) {
+    throw new ApiError(400, 'This account uses Google Sign-In. Please continue with Google.');
   }
 
   if (!user.isVerified) {
@@ -163,16 +155,78 @@ const login = asyncHandler(async (req, res) => {
   }).send(res);
 });
 
+/* ------------------------------------------------------------------ */
+/*  GOOGLE SIGN-IN                                                     */
+/* ------------------------------------------------------------------ */
+
 /**
- * POST /api/auth/forgot-password
- * Sends a password-reset OTP. Always responds the same way whether or not
- * the email exists, so attackers can't use this to enumerate accounts.
+ * POST /api/auth/google
+ * Frontend sends the Google ID token (credential), we verify it,
+ * then create/login the user and return our own JWT.
  */
+const googleLogin = asyncHandler(async (req, res) => {
+  const { idToken } = req.body;
+
+  if (!idToken) {
+    throw new ApiError(400, 'Google ID token is required.');
+  }
+
+  // Verify the ID token with Google
+  const ticket = await googleClient.verifyIdToken({
+    idToken,
+    audience: env.GOOGLE_CLIENT_ID,
+  });
+
+  const payload = ticket.getPayload();
+  const { email, name, picture, email_verified, sub: googleId } = payload;
+
+  if (!email_verified) {
+    throw new ApiError(400, 'Google email is not verified.');
+  }
+
+  let user = await User.findOne({ email });
+
+  if (!user) {
+    // First time — create the account, already verified by Google
+    user = await User.create({
+      name: name || email.split('@')[0],
+      email,
+      authProvider: 'google',
+      googleId,
+      avatar: picture || '',
+      isVerified: true,
+    });
+  } else {
+    // Existing user — link Google if not linked yet
+    if (user.authProvider !== 'google') {
+      user.authProvider = 'google';
+      user.googleId = googleId;
+      if (!user.avatar) user.avatar = picture || '';
+      user.isVerified = true;
+      await user.save();
+    } else if (!user.avatar && picture) {
+      user.avatar = picture;
+      await user.save();
+    }
+  }
+
+  const token = generateToken(user._id, user.role);
+
+  return new ApiResponse(200, `Logged in as ${user.email}`, {
+    token,
+    user: user.toSafeObject(),
+  }).send(res);
+});
+
+/* ------------------------------------------------------------------ */
+/*  PASSWORD RESET                                                     */
+/* ------------------------------------------------------------------ */
+
 const forgotPassword = asyncHandler(async (req, res) => {
   const { email } = req.body;
   const user = await User.findOne({ email });
 
-  if (user) {
+  if (user && user.authProvider === 'local') {
     const otp = generateOtp();
     user.resetPasswordOtp = otp;
     user.resetPasswordExpires = new Date(Date.now() + OTP_TTL_MS);
@@ -191,10 +245,6 @@ const forgotPassword = asyncHandler(async (req, res) => {
   ).send(res);
 });
 
-/**
- * POST /api/auth/reset-password
- * Verifies the reset OTP and sets a new password.
- */
 const resetPassword = asyncHandler(async (req, res) => {
   const { email, otp, newPassword } = req.body;
 
@@ -211,7 +261,8 @@ const resetPassword = asyncHandler(async (req, res) => {
     throw new ApiError(400, 'Incorrect reset code.');
   }
 
-  user.password = newPassword; // re-hashed by pre-save hook
+  user.password = newPassword;
+  user.authProvider = 'local';
   user.resetPasswordOtp = undefined;
   user.resetPasswordExpires = undefined;
   await user.save();
@@ -219,10 +270,10 @@ const resetPassword = asyncHandler(async (req, res) => {
   return new ApiResponse(200, 'Password reset successfully. Please sign in.').send(res);
 });
 
-/**
- * GET /api/auth/me
- * Protected — returns the logged-in user's profile.
- */
+/* ------------------------------------------------------------------ */
+/*  PROFILE                                                            */
+/* ------------------------------------------------------------------ */
+
 const getMe = asyncHandler(async (req, res) => {
   return new ApiResponse(200, 'Profile fetched', { user: req.user.toSafeObject() }).send(res);
 });
@@ -232,6 +283,7 @@ module.exports = {
   verifyOtp,
   resendOtp,
   login,
+  googleLogin,
   forgotPassword,
   resetPassword,
   getMe,

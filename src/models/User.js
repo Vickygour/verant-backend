@@ -38,14 +38,33 @@ const userSchema = new mongoose.Schema(
     },
     password: {
       type: String,
-      required: [true, 'Password is required'],
+      // Not required for Google users — they authenticate via OAuth
+      required: function () {
+        return this.authProvider === 'local';
+      },
       minlength: 6,
-      select: false, // never return password by default
+      select: false,
     },
     role: {
       type: String,
       enum: ['user', 'admin'],
       default: 'user',
+    },
+
+    // --- Auth provider (local = email/password, google = OAuth) ---
+    authProvider: {
+      type: String,
+      enum: ['local', 'google'],
+      default: 'local',
+    },
+    googleId: {
+      type: String,
+      default: null,
+      select: false,
+    },
+    avatar: {
+      type: String,
+      default: '',
     },
 
     // --- Email verification (signup OTP flow) ---
@@ -85,18 +104,18 @@ const userSchema = new mongoose.Schema(
 );
 
 // Hash password whenever it's created/changed
-userSchema.pre('save', async function hashPassword(next) {
-  if (!this.isModified('password')) return next();
+userSchema.pre('save', async function hashPassword() {
+  if (!this.isModified('password') || !this.password) return;
   const salt = await bcrypt.genSalt(10);
   this.password = await bcrypt.hash(this.password, salt);
-  next();
 });
 
+
 userSchema.methods.comparePassword = function comparePassword(candidate) {
+  if (!this.password) return false;
   return bcrypt.compare(candidate, this.password);
 };
 
-// Never leak sensitive fields even if someone forgets .select()
 userSchema.methods.toSafeObject = function toSafeObject() {
   const obj = this.toObject();
   delete obj.password;
@@ -105,6 +124,7 @@ userSchema.methods.toSafeObject = function toSafeObject() {
   delete obj.otpPurpose;
   delete obj.resetPasswordOtp;
   delete obj.resetPasswordExpires;
+  delete obj.googleId;
   delete obj.__v;
   return obj;
 };

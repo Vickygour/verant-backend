@@ -1,37 +1,48 @@
 const nodemailer = require('nodemailer');
+const { google } = require('googleapis');
 const env = require('../config/env');
 
-let transporter;
+const OAuth2 = google.auth.OAuth2;
 
 /**
- * Lazily creates a single reusable SMTP transporter.
- * Reads credentials from .env (SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS).
+ * Creates a Nodemailer transporter using Gmail OAuth2.
+ * Access token is auto-generated from the long-lived refresh token.
  */
-function getTransporter() {
-  if (transporter) return transporter;
+async function createTransporter() {
+  const oauth2Client = new OAuth2(
+    env.GOOGLE_CLIENT_ID,
+    env.GOOGLE_CLIENT_SECRET,
+    'https://developers.google.com/oauthplayground',
+  );
 
-  transporter = nodemailer.createTransport({
-    host: env.SMTP_HOST,
-    port: env.SMTP_PORT,
-    secure: env.SMTP_SECURE, // true for port 465, false for 587
-    auth: {
-      user: env.SMTP_USER,
-      pass: env.SMTP_PASS,
-    },
+  oauth2Client.setCredentials({
+    refresh_token: env.GOOGLE_REFRESH_TOKEN,
   });
 
-  return transporter;
+  const accessTokenResponse = await oauth2Client.getAccessToken();
+
+  return nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      type: 'OAuth2',
+      user: env.GOOGLE_USER,
+      clientId: env.GOOGLE_CLIENT_ID,
+      clientSecret: env.GOOGLE_CLIENT_SECRET,
+      refreshToken: env.GOOGLE_REFRESH_TOKEN,
+      accessToken: accessTokenResponse.token,
+    },
+  });
 }
 
 /**
- * Sends an email.
+ * Sends an email via Gmail OAuth2.
  * @param {{ to: string, subject: string, html: string, text?: string }} options
  */
 async function sendEmail({ to, subject, html, text }) {
-  const mailTransporter = getTransporter();
+  const transporter = await createTransporter();
 
-  const info = await mailTransporter.sendMail({
-    from: env.EMAIL_FROM,
+  const info = await transporter.sendMail({
+    from: env.SMTP_FROM || `"Voltra" <${env.GOOGLE_USER}>`,
     to,
     subject,
     html,

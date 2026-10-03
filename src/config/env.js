@@ -1,21 +1,8 @@
 require('dotenv').config();
 
-/**
- * Central place to read process.env.
- * Import this everywhere instead of `process.env.X` directly —
- * if a required variable is missing we fail fast with a clear message
- * instead of a confusing crash later deep inside the app.
- */
-
 function required(name, fallback) {
   const value = process.env[name] ?? fallback;
   if (value === undefined || value === '') {
-    // Throw instead of process.exit(1): this file is also loaded inside a
-    // Vercel serverless function (api/index.js → src/app.js), where killing
-    // the whole process on a missing env var can take other in-flight
-    // invocations down with it. Throwing surfaces a normal 500 with a clear
-    // message instead, and `npm start`/`npm run dev` still crash loudly
-    // because nothing catches this at the top level in src/server.js.
     throw new Error(`[config] Missing required environment variable: ${name}`);
   }
   return value;
@@ -29,16 +16,21 @@ const env = {
   MONGO_URI: required('MONGO_URI'),
 
   JWT_SECRET: required('JWT_SECRET'),
+  JWT_REFRESH_SECRET: process.env.JWT_REFRESH_SECRET,
+  JWT_ACCESS_EXPIRY: process.env.JWT_ACCESS_EXPIRY || '15m',
+  JWT_REFRESH_EXPIRY: process.env.JWT_REFRESH_EXPIRY || '7d',
   JWT_EXPIRES_IN: process.env.JWT_EXPIRES_IN || '7d',
 
   OTP_EXPIRY_MINUTES: Number(process.env.OTP_EXPIRY_MINUTES) || 10,
 
-  SMTP_HOST: process.env.SMTP_HOST,
-  SMTP_PORT: Number(process.env.SMTP_PORT) || 587,
-  SMTP_SECURE: process.env.SMTP_SECURE === 'true',
-  SMTP_USER: process.env.SMTP_USER,
-  SMTP_PASS: process.env.SMTP_PASS,
-  EMAIL_FROM: process.env.EMAIL_FROM || 'VÉRANT Maison <no-reply@verant-maison.in>',
+  // --- Gmail OAuth2 (Nodemailer) ---
+  GOOGLE_USER: required('GOOGLE_USER'),
+  GOOGLE_CLIENT_ID: required('GOOGLE_CLIENT_ID'),
+  GOOGLE_CLIENT_SECRET: required('GOOGLE_CLIENT_SECRET'),
+  GOOGLE_REFRESH_TOKEN: required('GOOGLE_REFRESH_TOKEN'),
+
+  SMTP_FROM: process.env.SMTP_FROM || `"Voltra" <${process.env.GOOGLE_USER}>`,
+  EMAIL_FROM: process.env.SMTP_FROM || 'VÉRANT Maison <no-reply@verant-maison.in>',
 
   ADMIN_NAME: process.env.ADMIN_NAME || 'Admin',
   ADMIN_EMAIL: process.env.ADMIN_EMAIL || 'admin@verant-maison.in',

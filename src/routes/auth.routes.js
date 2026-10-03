@@ -14,23 +14,20 @@ const {
 
 const router = express.Router();
 
-// Signup sends an OTP email — rate limited to stop mailbox spam
+// --- Local auth (email/password + OTP) ---
 router.post('/signup', otpLimiter, signupValidator, validate, ctrl.signup);
-
-// Verify the OTP sent on signup → activates account + logs the user in
 router.post('/verify-otp', verifyOtpValidator, validate, ctrl.verifyOtp);
-
-// Resend OTP (also rate limited)
 router.post('/resend-otp', otpLimiter, resendOtpValidator, validate, ctrl.resendOtp);
-
-// Login — the specific endpoint the brute-force limiter protects
 router.post('/login', loginLimiter, loginValidator, validate, ctrl.login);
 
-// Forgot / reset password
+// --- Google Sign-In ---
+router.post('/google', loginLimiter, ctrl.googleLogin);
+
+// --- Password reset ---
 router.post('/forgot-password', otpLimiter, forgotPasswordValidator, validate, ctrl.forgotPassword);
 router.post('/reset-password', resetPasswordValidator, validate, ctrl.resetPassword);
 
-// Current logged-in user
+// --- Profile ---
 router.get('/me', protect, ctrl.getMe);
 
 module.exports = router;
