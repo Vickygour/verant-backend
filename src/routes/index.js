@@ -7,6 +7,7 @@ const wishlistRoutes = require('./wishlist.routes');
 const userRoutes = require('./user.routes');
 const contentRoutes = require('./content.routes');
 const reviewRoutes = require('./review.routes');
+const uploadRoutes = require('./upload.routes');
 
 const router = express.Router();
 
@@ -14,6 +15,7 @@ router.get('/health', (req, res) => res.json({ success: true, message: 'API is h
 
 router.use('/auth', authRoutes);
 router.use('/products', productRoutes);
+router.use('/upload', uploadRoutes);
 router.use('/orders', orderRoutes);
 router.use('/wishlist', wishlistRoutes);
 router.use('/users', userRoutes);
