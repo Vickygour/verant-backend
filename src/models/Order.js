@@ -83,7 +83,6 @@ orderSchema.pre('validate', function setPaymentStatus(next) {
   if (this.isNewArrival && this.paymentMethod !== 'cod') {
     this.paymentStatus = 'paid';
   }
-  next();
 });
 
 module.exports = mongoose.model('Order', orderSchema);

@@ -68,7 +68,7 @@ app.use('/api', async (req, res, next) => {
       message: 'Database is temporarily unavailable. Please try again shortly.',
     });
   }
-});
+;;});
 
 // --- Routes ---
 app.use('/api', routes);

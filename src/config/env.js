@@ -9,7 +9,7 @@ function required(name, fallback) {
 }
 
 const env = {
-  NODE_ENV: process.env.NODE_ENV,
+  NODE_ENV: process.env.NODE_ENV || 'development',
   PORT: Number(process.env.PORT) || 5000,
   CLIENT_URL: process.env.CLIENT_URL || 'http://localhost:3000/',
 
@@ -23,11 +23,14 @@ const env = {
 
   OTP_EXPIRY_MINUTES: Number(process.env.OTP_EXPIRY_MINUTES) || 10,
 
-  // --- Gmail OAuth2 (Nodemailer) ---
+  // --- Gmail App Password (Nodemailer) ---
   GOOGLE_USER: required('GOOGLE_USER'),
-  GOOGLE_CLIENT_ID: required('GOOGLE_CLIENT_ID'),
-  GOOGLE_CLIENT_SECRET: required('GOOGLE_CLIENT_SECRET'),
-  GOOGLE_REFRESH_TOKEN: required('GOOGLE_REFRESH_TOKEN'),
+  SMTP_PASS: required('SMTP_PASS'), // Ye naya add kiya hai
+
+  // OAuth wale variables optional kar diye gaye hain (abhi zaroorat nahi hai)
+  GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID || '',
+  GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET || '',
+  GOOGLE_REFRESH_TOKEN: process.env.GOOGLE_REFRESH_TOKEN || '',
 
   SMTP_FROM: process.env.SMTP_FROM || `"Voltra" <${process.env.GOOGLE_USER}>`,
   EMAIL_FROM: process.env.SMTP_FROM || 'VÉRANT Maison <no-reply@verant-maison.in>',

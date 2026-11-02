@@ -63,7 +63,6 @@ productSchema.pre('validate', function generateSlug(next) {
       .replace(/[^a-z0-9]+/g, '-')
       .replace(/(^-|-$)/g, '');
   }
-  next();
 });
 
 productSchema.virtual('inStock').get(function inStock() {
